@@ -54,7 +54,7 @@ h2 {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--link-color);
 }
 
 a:visited {
@@ -115,6 +115,7 @@ button:focus,
   display: flex;
   width: 100%;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .page-header__item {
