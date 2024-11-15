@@ -1,119 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Corinne Haggerty - Portfolio</title>
-    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.production.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <link
+      rel="shortcut icon"
+      href="./img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/style.production.css"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+  </head>
 
-<body>
-      <!-- Header including the logo and the main navigation-->
-      <header class="page-header">
-        <!-- Add Logo here-->
-        <img src="img/logo_200x70.svg" alt="Personal logo of Corinne Haggerty, purple fountain-like graphic, with name Corinne Haggerty in blue font" class="page-header__item">
-        <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-                <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-                </li>
-                <li role="presentation">
-                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-                </li>
-                <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-                </li>
-                <li role="presentation">
-                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-                </li>
-            </ul>
-        </nav>
+  <body>
+    <!-- Header including the logo and the main navigation-->
+    <header class="page-header">
+      <!-- Add Logo here-->
+      <img
+        src="img/logo_200x70.svg"
+        alt="Personal logo of Corinne Haggerty, purple fountain-like graphic, with name Corinne Haggerty in blue font"
+        class="page-header__item"
+      />
+      <nav class="main-navigation page-header__item">
+        <ul
+          role="menubar"
+          class="navigation-list"
+        >
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="about.html"
+              role="menuitem"
+              class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main content-->
     <section>
-        <div class="work_content">
-        <h1>Work</h1></div>
-        <div class="grid">
-            <!-- Grid items will live here-->
-            <div class="grid__item">
-              <h2>Meet App</h2>
-              <div class="img-container">
-                <div class="project-img">
-                    <a href="img/MeetApp_img1.png" target="_blank">
-                        <img src="img/MeetApp_img1.png" width="500" height="auto"/>
-                    </a>
-                </div>
-              </div>
-              <p>A serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. This application uses the Google Calendar API to fetch upcoming events and OAuth2 authentication flow. </p>
-              <p>Users can explore events by searching for a city and choose how many events to display.  A piechart and line graph showing events help the visual appeal of the app and allow easier conclusions to be drawn from the data.
-              </p>
-              <p>
-              <i> Technologies used: React, Google Calender API, AWS Lambda, Serverless, Jest, Jest-Cucumber, Puppeteer, Recharts </i>
-              </p>
-              <a href="https://c1904h.github.io/meet/">View app</a> <br />
-              <a href="https://github.com/C1904H/meet">See project on GitHub</a>
+      <div class="work_content">
+        <h1>Work</h1>
+      </div>
+      <div class="grid">
+        <!-- Grid items will live here-->
+        <div class="grid__item">
+          <h2>Pokédex App</h2>
+          <div class="img-container">
+            <div class="project-img">
+              <a
+                href="img/pokedex_img.png"
+                target="_blank"
+              >
+                <img src="img/pokedex_img.png" 
+                width="500" height="auto"/>
+              </a>
             </div>
-            <div class="grid__item">
-              <h2>Project Title 2</h2>
-              <p>
-                Curabitur ac eleifend leo. Suspendisse ut tristique mi. Donec egestas facilisis ante, vitae eleifend velit egestas id. Morbi cursus mi at mi tempor, vel rhoncus dolor dictum.
-              </p>
-              <a href="#">See project on GitHub</a>     
-            </div>
-            <div class="grid__item">
-                <h2>Project Title 3</h2>
-                <p>
-                    Aenean sodales, neque ut luctus pharetra, dolor ex tristique dolor, eu tincidunt augue justo iaculis tortor. Donec fermentum luctus lectus, in aliquam neque. 
-                </p>
-                <a href="#">See project on GitHub</a>     
-            </div>
-            <div class="grid__item">
-                <h2>Project Title 4</h2>
-                <p>
-                    Duis congue imperdiet blandit. Sed gravida enim sed tortor dictum, ac ornare nisl porttitor. Donec ultrices mattis elit eu luctus. Vivamus vitae scelerisque nisl, ut accumsan leo.
-                </p>
-                <a href="#">See project on GitHub</a>     
-            </div>
-            <div class="grid__item">
-                <h2>Project Title 5</h2>
-                <p>
-                  DCras at nisi orci. Nunc euismod fringilla sapien, vitae auctor erat pharetra quis. Vivamus quis urna sapien. Nunc tincidunt quam tortor, et ultricies urna maximus eget.
-                </p>
-                <a href="#">See project on GitHub</a>     
-              </div>
-              <div class="grid__item">
-                <h2>Project Title 6</h2>
-                <p>
-                  Denean quis enim diam. Mauris posuere tincidunt tellus ut dapibus. Praesent quis tempor ante. Maecenas lobortis leo ex. In nec nisl tempor, ultrices neque vel, faucibus dui.
-                </p>
-                <a href="#">See project on GitHub</a>     
-              </div>
+          </div>
+          <p>
+            A small scale application. Pokémon data fetched from an external
+            API. Users can view Pokémon data points (image, height, types and
+            abilities) in detail via a modal and search for a specific Pokémon.
+          </p>
+          <p>
+            <i>
+              Technologies used: HTML, JavaScript, jQuery, CSS, Bootstrap,
+              Prettier and ESLint</i
+            >
+          </p>
+          <a href="https://c1904h.github.io/pokedex-js-app/">View app</a> <br />
+          <a href="https://github.com/C1904H/pokedex-js-app"
+            >See repository on GitHub</a
+          >
         </div>
+        <div class="grid__item">
+          <h2>myFlix Movie API</h2>
+          <div class="img-container">
+            <div class="project-img">
+              <a
+                href="img/movieApi_img.png"
+                target="_blank"
+              >
+                <img src="img/movieApi_img.png" 
+                width="500" height="auto"/>
+              </a>
+            </div>
+          </div>
+          <p>
+            A server-side component of a "movies" web application. Users can
+            access information about different movies, directors and genres.
+            Users will be able to sign up, update their personal information and
+            create a list of their favorite movies.
+          </p>
+          <p>This RESTful API is a Node.js and Express application.</p>
+          <p>
+            <i>
+              Technologies used: Express.js, MongoDB, Mongoose, Passport.js,
+              Swagger, CORS, Bcrypt.</i
+            >
+          </p>
+          <a href="https://github.com/C1904H/movie_api"
+            >See repository on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>myFlix React App</h2>
+          <div class="img-container">
+            <div class="project-img">
+              <a
+                href="img/myFlixClient_img.png"
+                target="_blank"
+              >
+                <img
+                  src="img/myFlixClient_img.png"
+                  width="500" height="auto"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            Client-side for myFlix movie app using the existing server-side code
+            (REST API and database). Users can sign up/ login, browse movies
+            (inc description, image, genre and director), select favorite movies
+            or search for movie by title. Users can navigate to their personal
+            profile where they can update their user information, view favorite
+            movies or delete account.
+          </p>
+          <p>
+            <i>
+              Technologies used: This complete web app (client-side and
+              server-side) demonstrates use of full-stack JavaScript
+              developement: MERN (MongoDB, Express, React and Node.js) stack.
+            </i>
+          </p>
+          <a href="https://myflix1000.netlify.app">View app on Netlify</a>
+          <br />
+          <a href="https://github.com/C1904H/myFlix-client"
+            >See repository on GitHub</a
+          >
+        </div>
+        <div class="grid__item">
+          <h2>Meet App</h2>
+          <div class="img-container">
+            <div class="project-img">
+              <a
+                href="img/MeetApp_img1.png"
+                target="_blank"
+              >
+                <img src="img/MeetApp_img1.png"
+                width="500" height="auto" />
+              </a>
+            </div>
+          </div>
+          <p>
+            A serverless, progressive web application (PWA) with React using a
+            test-driven development (TDD) technique. This application uses the
+            Google Calendar API to fetch upcoming events and OAuth2
+            authentication flow.
+          </p>
+          <p>
+            Users can explore events by searching for a city and choose how many
+            events to display.
+          </p>
+          <p>
+            <i>
+              Technologies used: React, Google Calender API, AWS Lambda,
+              Serverless, Jest, Jest-Cucumber, Puppeteer, Recharts.
+            </i>
+          </p>
+          <a href="https://c1904h.github.io/meet/">View app</a> <br />
+          <a href="https://github.com/C1904H/meet">See repository on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>Chat App</h2>
+          <div class="img-container-chat">
+            <div class="project-img">
+              <a
+                href="img/chatApp_img.png"
+                target="_blank"
+              >
+                <img
+                  src="img/chatApp_img.png"
+                  width="400" height="auto"
+                />
+              </a>
+            </div>
+          </div>
+          <p>
+            A chat app for mobile devices (android and ios) using React Native.
+            The app provides users with a chat interface and options to take,
+            upload and share images and location. Data is stored online and
+            offline.
+          </p>
+          <p>
+            <i>
+              Technologies used: React Native, Expo, Firestore and Firebase,
+              Gifted Chat, React Navigation and Android Studio.
+            </i>
+          </p>
+          <a href="https://github.com/C1904H/chat-app">See project on GitHub</a>
+        </div>
+        <div class="grid__item">
+          <h2>myFlix Angular App</h2>
+          <div class="img-container">
+            <div class="project-img">
+              <a
+                href="img/myFlixAngular_img.png"
+                target="_blank"
+              >
+                <img src="img/myFlixAngular_img.png" 
+                width="500" height="auto"/>
+              </a>
+            </div>
+          </div>
+          <p>
+            Using the existing server-side code (REST API and database) myFlix
+            movie app client-side built using Angular Framework for this
+            project. Users can register and login, browse movies, view movie
+            information and add movies to favorites. A profile view allows users
+            to update their information and view favorite movies.
+          </p>
+          <p>
+            <i>
+              Technologies used: Angular, Angular Material, TypeScript and SCSS.
+            </i>
+          </p>
+          <a href="https://c1904h.github.io/myFlix-Angular/">View app</a> <br />
+          <a href="https://github.com/C1904H/myFlix-Angular"
+            >See repository on GitHub</a
+          >
+        </div>
+      </div>
     </section>
 
     <footer class="page-footer">
-        <p>Find me on</p>
-        <div class="social-media">
+      <p>Find me on</p>
+      <div class="social-media">
         <!-- Github link -->
-        <a href="https://github.com/C1904H" target="_blank"><img src="./img/github_icon.svg" alt="Github logo"></a>
+        <a
+          href="https://github.com/C1904H"
+          target="_blank"
+          ><img
+            src="./img/github_icon.svg"
+            alt="Github logo"
+        /></a>
         <!-- Linkedin link -->
-        <a href="https://www.linkedin.com/in/corinne-haggerty-2b98706b" target="_blank"><img src="./img/linkedin_icon.svg" alt="linkedin logo"></a>
+        <a
+          href="https://www.linkedin.com/in/corinne-haggerty-2b98706b"
+          target="_blank"
+          ><img
+            src="./img/linkedin_icon.svg"
+            alt="linkedin logo"
+        /></a>
         <!-- X link -->
-        <a href="#"><img src="./img/x_icon.svg" alt="X logo"></a>
-        </div>
-        <br>
-        <a href="#">Back to top</a>
+        <!-- <a href="#"
+          ><img
+            src="./img/x_icon.svg"
+            alt="X logo"
+        /></a> -->
+      </div>
+      <br />
+      <a href="#">Back to top</a>
     </footer>
 
-    
-
     <script src="js/tota11y.min.js"></script>
-</body>
-
+  </body>
 </html>
