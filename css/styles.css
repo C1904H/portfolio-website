@@ -75,6 +75,10 @@ a:active {
   color: var--(active-color);
 }
 
+span {
+  color: #a5083e;
+}
+
 .button,
 button {
   /* overwrites browser defaults and resets the border */
@@ -119,7 +123,7 @@ button:focus,
   display: flex;
   width: 100%;
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .page-header__item {
@@ -183,10 +187,20 @@ button:focus,
   margin: 20px auto;
   justify-content: center;
   background-color: var(--table-color);
+  padding: 5px;
 }
 
 .table-list {
   list-style-type: none;
+}
+
+.button-tertiary {
+  border-radius: 12px;
+  background-color: white;
+  font-size: 15px;
+  color: #a5083e;
+  border: 2px solid #088da5;
+  margin-bottom: 5px;
 }
 
 /* SVG ANIMATIONS */
@@ -262,6 +276,7 @@ button:focus,
   }
 
   .grid__item {
+    font-size: 16px;
     background-color: #f5f5f5;
     width: auto;
     min-height: auto;
@@ -274,6 +289,10 @@ button:focus,
   .grid__item:hover {
     transform: scale(1.05); /* Increase the size by 5% on hover */
     cursor: pointer; /* Change the cursor to a pointing hand */
+  }
+
+  a {
+    font-size: 18px;
   }
 }
 
