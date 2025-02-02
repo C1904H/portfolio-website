@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>myFlix Case Study</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/case-study.css"
+    />    
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="header">
+        <h1>Case Study: myFlix App</h1>
+      </div>
+
+      <section class="content-with-image">
+        <div class="text-section">
+          <h2 class="section-title">Overview</h2>
+          <p>
+            myFlix is a full-stack movie database application built using React,
+            designed to allow users to explore a library of films. Users can
+            create an account, log in, and access information about different
+            movies, directors, and genres. They can also navigate to their
+            personal profile page, where they can save their favorite movies and
+            manage their account settings.
+          </p>
+          <h2 class="section-title">Purpose and Context</h2>
+          <p>
+            I developed the myFlix app as part of my full-stack web development
+            course with CareerFoundry. This project served as a capstone
+            achievement, demonstrating my ability to build and integrate both
+            the frontend and backend of a web application using the MERN
+            (MongoDB, Express, React, Node.js) stack.
+          </p>
+          <h2 class="section-title">Objective</h2>
+          <p>
+            The primary objective of this project was to build a fully
+            functional client-side application that seamlessly interacts with an
+            existing server-side code (REST API and database). I aimed to create
+            a responsive and user-friendly interface that aligns with modern web
+            development standards and efficiently utilises server-side
+            capabilities.
+          </p>
+        </div>
+        <div class="image-section">
+          <img
+            src="img/myFlixClient_img.jpg"
+            alt="Movie Library View"
+          />
+        </div>
+      </section>
+      <hr />
+
+      <section class="content-with-image">
+        <div class="text-section">
+          <h2 class="section-title">Duration</h2>
+          <ul>
+            <li>Backend development: 28 days.</li>
+            <li>Frontend development: 35 days.</li>
+            <li>Total duration: 63 days.</li>
+          </ul>
+          <h2 class="section-title">Credits</h2>
+          <p>
+            I was the sole developer of this project, receiving guidance and
+            feedback from my tutor and mentor.
+          </p>
+          <ul>
+            <li>Tutor: Roibeard Mac Unfraigh</li>
+            <li>Mentor: Emmanuel Nsambu</li>
+          </ul>
+          <h2 class="section-title">Methodologies & Technologies Used</h2>
+          <ul>
+            <li>Backend: Node.js, Express.js, MondoDB, Mongoose</li>
+            <li>Frontend: React, React Bootstrap, Redux</li>
+            <li>Testing and Deployment: Postman, Heroku, Netlify, Parcel</li>
+          </ul>
+        </div>
+        <div class="image-section">
+          <img
+            src="/img/codeExample1.png"
+            alt="Backend API Example"
+          />
+        </div>
+      </section>
+      <hr />
+
+      <h2 class="section-title">Backend Development</h2>
+      <section class="content-with-image">
+        <div class="image-section">
+          <img
+            src="/img/movieApi_img.png"
+            alt="Backend API Example"
+          />
+        </div>
+        <div class="text-section">
+          <h3 class="section-title">The Database</h3>
+          <p>
+            The first stage of the project was developing the movie database and
+            REST API using Node.js, Express, and Mongoose. I implemented CRUD
+            (Create, Read, Update, Delete) operations to manage and retrieve
+            data from the non-relational MongoDB database, ensuring efficient
+            interaction with the frontend.
+          </p>
+          <h3 class="section-title">Key Features and Decisions:</h3>
+          <ul>
+            <li>
+              Security: To safeguard user data, I implemented JWT-based
+              authentication, password hashing, and CORS policies.
+            </li>
+            <li>
+              Data Validation: I incorporated validation mechanisms for user
+              registration and updates,
+            </li>
+            <li>
+              Deployment: Once the backend was completed, I deployed the API to
+              Heroku and stored the database in MongoDB Atlas for cloud
+              accessibility.
+            </li>
+            <li>
+              Testing: I rigorously tested all API endpoints using Postman
+              before and after deployment to ensure seamless data flow.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+
+      <section>
+        <h2 class="section-title">Frontend Development</h2>
+        <p>
+          Once the API was successfully deployed, I developed the frontend using
+          React, integrating the REST API to allow users to interact with the
+          database.
+        </p>
+        <h3 class="section-title">Key UI Features:</h3>
+        <ul>
+          <li>
+            Authentication Views: Users can register, log in, and manage their
+            accounts.
+          </li>
+          <li>
+            Movie Library: The main view displays all movies, with the ability
+            to click for more details.
+          </li>
+          <li>
+            Movie Details View: Provides detailed information on a selected
+            movie, including genre and director.
+          </li>
+          <li>
+            User Profile View: Users can view and update their personal details,
+            manage favorite movies, or delete their accounts.
+          </li>
+          <li>
+            Navigation: A responsive navbar allows easy movement between views
+            and includes a movie search bar.
+          </li>
+        </ul>
+        <h3 class="section-title">State Management & Styling:</h3>
+        <ul>
+          <li>
+            State-Based Routing: I used React Router to navigate between views.
+          </li>
+          <li>
+            State Management: Implemented useEffect and useState hooks to manage
+            state effectively.
+          </li>
+          <li>
+            Build Tool: I used Parcel to optimise and bundle the frontend code.
+          </li>
+          <li>
+            UI/UX Enhancements: Leveraging Bootstrap helped improve
+            responsiveness and styling.
+          </li>
+          <li>Deployment: The frontend was deployed and hosted on Netlify.</li>
+        </ul>
+
+        <div class="screenshot">
+          <img
+            src="/img/profileView.png"
+            alt="Profile View"
+          />
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h2 class="section-title">What Went Well</h2>
+        <p>
+          I thoroughly enjoyed developing the myFlix app, particularly the
+          experience of integrating both frontend and backend components into a
+          fully functional application. Seeing the API and frontend interact
+          seamlessly was especially rewarding, reinforcing my understanding of
+          full-stack development principles.
+        </p>
+      </section>
+      <section>
+        <h2 class="section-title">Challenges</h2>
+        <p>
+          One of the biggest challenges I faced was implementing the "favorite
+          movies" feature on the user profile page. Initially, I struggled with
+          ensuring that the selected favorite movies were accurately reflected
+          in the database. After extensive debugging, I realized that the issue
+          stemmed from how the API handled updates to user data. This experience
+          underscored the importance of thoroughly testing and validating
+          backend logic before moving to frontend integration. Taking extra time
+          to refine backend functionality can prevent significant roadblocks
+          later in development.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">Future Improvements</h2>
+        <p>
+          The myFlix app has great potential for scalability. Some enhancements
+          I would like to implement include:
+        </p>
+        <ul>
+          <li>
+            Expanding the database to include actor details and director bios.
+          </li>
+          <li>
+            Improving the search functionality to allow filtering by genre or
+            actor.
+          </li>
+          <li>
+            Adding a "Similar Movies" feature based on genre or shared actors.
+          </li>
+          <li>Implementing a user rating and watchlist feature.</li>
+          <li>Refining the UI/UX for a more polished look and feel.</li>
+        </ul>
+        <p>
+          Each of these improvements would significantly enhance the app's
+          functionality and overall user experience.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="section-title">Conclusion</h2>
+        <p>
+          Developing the myFlix app was a highly educational and rewarding
+          experience. It allowed me to deepen my understanding of full-stack
+          development, API integration, and state management while reinforcing
+          the importance of thorough debugging and testing. I look forward to
+          refining and expanding the project in the future, incorporating new
+          features that further enhance user experience and scalability.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
